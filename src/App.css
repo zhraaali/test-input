@@ -627,12 +627,15 @@ width: 250px !important;
 
 .sticky-zh-fixed {
   /* Existing styles */
-  /*bottom: 0;  Position the element at the bottom of the viewport */
+  /* bottom: 0;   */
 }
 
 /* Media query for smaller screens (adjust as needed)  */
- /* @media (max-width: 768px) {
-  .sticky-zh-fixed {
+ @media (max-width: 768px) {
+  .sticky-zh-fixed:focus {
     height: calc(100vh - 100px); 
   }
-} */
+  .form-floating:focus {
+    height: calc(100vh - 100px); 
+  }
+}
