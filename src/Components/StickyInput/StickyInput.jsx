@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
 import { Button, FloatingLabel, Form, Table } from 'react-bootstrap';
+import './StickyInput.css'
 // Import other components like FloatingLabel, Form, Button, Table (if needed)
 import React from 'react'
 
